@@ -1,0 +1,20 @@
+:root{
+    --color1: #121214;
+    --color2: #41356B;
+    --color3: #E1E1E6;
+    --color4: #202024;
+    --color5: #29292E;
+    --default-width: 320px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color3);
+}
+
+body{
+    background-color: var(--color1);
+}
