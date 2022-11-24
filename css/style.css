@@ -4,7 +4,9 @@
     --color3: #E1E1E6;
     --color4: #202024;
     --color5: #29292E;
-    --default-width: 320px;
+    --small-screen: 560px;
+    --mediunm-screen: 820px;
+    --large-screen: 1200px;
 }
 
 *{
@@ -18,3 +20,55 @@
 body{
     background-color: var(--color1);
 }
+
+.container{
+    /* border: 2px solid red;
+    background:green; */
+    height: 100vh;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card1{
+    width: var(--small-screen);
+    /* background-color: rgb(105, 105, 11); */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    /* min-height: 600px; */
+}
+.card1 .card1__img{
+    width: 250px;
+}
+.card1 .card1__title{
+    font-size: 70px;
+}
+
+.card2{
+    width: var(--small-screen);
+    background-color: var(--color4);
+    padding: 60px;
+    min-height: 600px;
+    border-radius: 5px;
+}
+
+.card2 .card2__inputs{
+    background-color: var(--color1);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.card2 .card2__ico{
+    color: var(--color5);
+    font-size: 20px;
+}
+.card2 .card2__email{
+    /* width: 100%; */
+}  
